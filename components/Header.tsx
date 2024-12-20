@@ -30,7 +30,7 @@ const Header: React.FC = () => {
             <span
               className="ml-2 text-3xl font-extrabold bg-gradient-to-r from-blue-500 to-blue-900 text-transparent bg-clip-text"
             >
-              doubtearn
+              DoubtEarn
             </span>
           </div>
         </Link>
