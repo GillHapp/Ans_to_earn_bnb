@@ -17,9 +17,24 @@ const Header: React.FC = () => {
         className="border-b border-[#212D4A] h-[80px] w-full flex
       justify-between items-center relative mb-2 px-3 sm:px-10"
       >
+
         <Link href="/">
-          <Image width="60" height="32" src={logo} alt="logo" className="ml-2 sm:ml-0" />
+          <div className="flex items-center">
+            <Image
+              width="60"
+              height="32"
+              src={logo}
+              alt="logo"
+              className="ml-2 sm:ml-0"
+            />
+            <span
+              className="ml-2 text-3xl font-extrabold bg-gradient-to-r from-blue-500 to-blue-900 text-transparent bg-clip-text"
+            >
+              doubtearn
+            </span>
+          </div>
         </Link>
+
 
         <div
           className="h-[48px] w-[601px] border border-[#212D4A]
